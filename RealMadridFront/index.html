@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Real Madrid</title>
+        <!-- METHODE 1 : Ajouter un Fichier CSS à ma Page -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- FontAwesome mettre le fichier cdn / placez l'icone juste avant le text besoin-->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div id="page">
+            <div class="header">
+                <div class="BandeauDuHaut"></div>
+                <ul>
+                    <li class="current">
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li><a href="#article">Présentation</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div> <!-- ./header -->
+            <div class="contenu">
+                <h1>Le Real Madrid</h1>
+                <div class="illustration">
+                    <img src="img/EQUIPE_png_srz.00_png_srz" 
+                        alt="Real Madrid">
+                </div>
+                <div id="article">
+                    <p>Le <span>Real Madrid</span> est un club professionnel <span style="color:#144e13;">espagnol de football</span>, basé à Madrid. <span style="color:#144e13;">Vainqueur</span> de très nombreux titres nationaux et internationaux, il a reçu de la <span>FIFA</span> le titre honorifique de plus <span style="color:#144e13;">grand club du XXe siècle.</span></p>
+                    
+                    <p>Fondé en 1902 <span style="color:#144e13;">le club se voit accorder le titre Real</span> (signifiant « Royal » en espagnol) par le roi Alphonse XIII d'Espagne. Le Real Madrid s'impose au <span>sommet du football européen</span> au milieu des années 1950, en remportant notamment les cinq premières éditions de ligue des champions. Dans les années 1980, le club possède de nouveau <span style="color:#144e13;">l'une des meilleures équipes d'Europe</span>, qui remporte notamment deux fois la Coupe de l'UEFA. Le Real Madrid renoue au début des années 2000 avec sa politique de <span>recruter les meilleurs joueurs du monde</span>, ce qui vaut à son équipe le surnom de « Galactiques ». En 2018, le club compte notamment à son palmarès 33 titres de champion d'Espagne et <span style="color:#144e13;">13 victoires en Ligue des champions</span>, deux records en la matière..</p>
+                    
+                </div>
+            </div> <!-- ./contenu -->
+            <div class="footer">
+                <div class="gmap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.003745121118!2d-3.6905331842888067!3d40.453054079360946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e23705d39f%3A0xa8fff6d26e2b1988!2sSantiago+Bernab%C3%A9u+Stadium!5e0!3m2!1sfr!2sfr!4v1508489222838" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="newsletter">
+                    <form name="newsletter" 
+                            action="newsletter.php"
+                            method="POST">
+
+                        <fieldset>
+                            <legend>Newsletter</legend>
+                            <input type="text" name="nom" placeholder="Nom">
+                            <input type="text" name="prenom" placeholder="Prénom">
+                            <input type="email" name="email" placeholder="Email" 
+                                required>
+                            <input type="submit" value="M'inscrire !">
+                        </fieldset>
+
+                    </form>
+                </div>
+                <div id="contact">
+                    <address>
+                        <h3>Contactez nous</h3>                        
+                        <a href="tel:+330232102501">
+                            <i class="fa fa-phone" aria-hidden="true"></i>02 32 10 25 01</a><br>
+                            <br>
+                        <a href="mailto:RealMadrid@gmail.com">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                                 RealMadrid@gmail.com
+                                 <br>
+                        </a> <br>
+                            <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                                18/28 Place Santiago Bernabeu<br>
+                                <br>
+                        <i class="fa fa-flag" aria-hidden="true"></i>
+                            ESPAGNE
+                    </address>
+                </div>
+            </div> <!-- ./footer -->
+        </div> <!-- #/page -->
+    </body>
+</html>
